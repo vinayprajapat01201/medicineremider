@@ -3,12 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e6f7ff;
-    /* Light Blue */
 }
 
 header {
     background-color: #3399ff;
-    /* Dark Blue */
     color: white;
     padding: 10px;
     display: flex;
@@ -39,7 +37,6 @@ nav a {
 
 .hero {
     background-color: #3399ff;
-    /* Dark Blue */
     color: white;
     padding: 10px 10px;
 }
@@ -52,7 +49,6 @@ nav a {
 
 button {
     background-color: #4CAF50;
-    /* Green */
     color: white;
     padding: 15px 20px;
     border: none;
@@ -64,7 +60,6 @@ button {
 
 button:hover {
     background-color: #45a049;
-    /* Darker Green */
 }
 
 .container {
@@ -72,7 +67,6 @@ button:hover {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
-    /* White */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -103,14 +97,12 @@ th,
 td {
     padding: 15px;
     text-align: center;
-    /* Center-align text in cells */
     border-bottom: 1px solid #ddd;
     font-size: 16px;
 }
 
 th {
     background-color: #3399ff;
-    /* Dark Blue */
     color: white;
 }
 
@@ -118,7 +110,6 @@ th {
     margin-top: 20px;
     padding: 15px;
     background-color: #4CAF50;
-    /* Green */
     color: white;
     border-radius: 5px;
 }
