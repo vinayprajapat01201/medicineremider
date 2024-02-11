@@ -23,20 +23,13 @@ function addMedication() {
         medicationTime
     };
 
-
     medicationList.push(medication);
-
 
     localStorage.setItem('medications', JSON.stringify(medicationList));
 
-
     displayMedications(medicationList);
-
-
     document.getElementById('medicineName').value = '';
     document.getElementById('medicationTime').value = '';
-
-
     const addedMedicationContainer = document.getElementById('addedMedication');
     addedMedicationContainer.innerHTML = `Added Medication: ${medicineName} - Time: ${medicationTime}`;
 }
@@ -78,9 +71,6 @@ function displayMedications(medicationList) {
 function removeMedication(index) {
 
     medicationList.splice(index, 1);
-
     localStorage.setItem('medications', JSON.stringify(medicationList));
-
-
     displayMedications(medicationList);
 }

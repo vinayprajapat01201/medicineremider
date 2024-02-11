@@ -14,6 +14,11 @@ header {
     align-items: center;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
 .logo img {
     width: 50px;
     height: 50px;

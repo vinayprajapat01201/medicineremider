@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Medicine Reminder - Patient</title>
+    <script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-messaging.js"></script>
+
 </head>
 
 <body>
+
     <header>
         <div class="logo">
             <img src="logo.jpg" alt="Medicine Reminder Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="https://github.com/vinayprajapat01201" target="_blank">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=6ieAFonrckk" target="_blank">About Us</a></li>
+                <li><a href="https://www.linkedin.com/in/vinayprajapat/" target="_blank">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -53,6 +57,19 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBrYkdgEVu6PdZsI1RdnS9_-_zPK5ko740",
+            authDomain: "medicine-remider-01.firebaseapp.com",
+            projectId: "medicine-remider-01",
+            storageBucket: "medicine-remider-01.appspot.com",
+            messagingSenderId: "586092525119",
+            appId: "1:586092525119:web:3dfcbbbcc7bc9770c22a8a",
+            measurementId: "G-CFDBWTDM7K"
+        };
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
 
 </html>
