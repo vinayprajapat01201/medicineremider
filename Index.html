@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Medicine Reminder - Patient</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Medicine Reminder Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Medicine Reminder</h1>
+
+    </section>
+
+    <div class="container">
+        <form id="medicineForm">
+            <label for="medicineName">Medicine Name:</label>
+            <input type="text" id="medicineName" required>
+
+            <label for="medicationTime">Medication Time:</label>
+            <input type="time" id="medicationTime" required>
+
+            <button type="button" onclick="addMedication()">Add Medication</button>
+        </form>
+
+        <div id="addedMedication"></div>
+        <table id="medicationTable">
+            <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Medication Time</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="medicationList"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
